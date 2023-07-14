@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #71C5CF;
+}
+
+header {
+    height: 6vh;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4vh;
+}
+
+#labirinto{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linha{
+    display: flex;
+}
+
+.linha div{
+    width: 40px;
+    height: 40px;
+}
+
+.parede{
+    background-color: #75BE2E;
+}
+
+.caminho{
+    background-color: #71C5CF;
+}
+
+.finish{
+    background-color: #EB4014;
+}
+
+.start{
+    background-color: #EB4014;
+}
+
+.jogador{
+    background-color: #D2BF23;
+}
+
+.mensagemVitoria{
+    height: 400px;
+    width: 100%;
+    background-color: #71C5CF;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mensagemVitoria h2{
+    font-size: 6vh;
+    text-transform: uppercase;
+}
