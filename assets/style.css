@@ -1,7 +1,7 @@
 body{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #71C5CF;
+    background-color: #3e3d3d;
 }
 
 header {
@@ -29,29 +29,29 @@ header {
 }
 
 .parede{
-    background-color: #75BE2E;
+    background-color: #83cad2;
 }
 
 .caminho{
-    background-color: #71C5CF;
+    background-color: #4c5246;
 }
 
 .finish{
-    background-color: #EB4014;
+    background-color: #fff7f5;
 }
 
 .start{
-    background-color: #EB4014;
+    background-color: #fff7f5;
 }
 
 .jogador{
-    background-color: #D2BF23;
+    background-color: #475bdd;
+    border-radius: 50%;
 }
 
 .mensagemVitoria{
     height: 400px;
     width: 100%;
-    background-color: #71C5CF;
     color: #fff;
     display: flex;
     align-items: center;
